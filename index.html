@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+     <!-----------
+     CSS link 
+    --------------->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-----------
+     bootstrap link 
+    --------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+
+<body>
+    
+    <!--------------
+     main project 
+    ---------------->
+
+    <main>
+        <section class="container d-flex mt-4">
+            <div>
+                <img class="img-fluid" src="images/mac.png" alt="">
+            </div>
+           <div class="container ms-5">
+            <div>
+                <h1 class="fw-bold">Coustomize Your blue 24-inch your iMac with Apple M1 cheep.</h1>
+                <p>The Apple M1 is an ARM-based system on a chip (SoC). It was designed by Apple Inc. as a central processing unit (CPU) and graphics processing unit (GPU) for its Macintosh computers and iPad Pro tablets. It was inspired by their Apple A14 Bionic chip.[3] It also marks the first major change to the instruction set used by Macintosh computers since Apple </p>
+            </div>
+            <!------------
+             extra features buy 
+            --------------------->
+
+             <!-- extra memory -->
+
+            <div class="mt-5">
+                <h3>Memory</h3>
+                <div>
+                    <button id="memory-fst" class="p-2  m-1 btn btn-success">8GB unified memory</button>
+                    <button id="memory-last" class="p-2  m-1 btn btn-success">16GB unified memory</button>
+                </div>
+
+
+                    <!-- extra storage -->
+                <div class="mt-5">
+                    <h3>Storage</h3>
+                    <div>
+                        <button id="storage-fst" class="p-2  m-1 btn-primary rounded">256GB SSD storage</button>
+                        <button id="storage-secound" class="p-2  m-1 btn-primary rounded">512GB SSD storage</button>
+                        <button id="storage-third" class="p-2  m-1 btn-primary rounded">1TB SSD storage</button>
+                    </div>    
+
+            </div>
+
+
+                    <!-- delivery charge -->
+
+                <div class="mt-5 mb-5">
+                    <h3>Choose your delivery option</h3>
+                    <div>
+                        <button id="delivery-fst" class="p-2  m-1 btn btn-success">Friday,Aug 25 free prime delivery</button>
+                        <button id="delivery-last" class="p-2  m-1 btn btn-success">Friday,Aug 21 delivery charge $20</button>
+                        
+                    </div>    
+
+            </div>
+           </div>
+
+
+
+           <!----------
+             price part
+            -------- -->
+            <div class="mt-5">
+                <table class="table table-hover">
+                    <tr>
+                        <td><h4>Best price </h4></td>
+                        <td><h4> $ <span id="best-price">1299</span> </h4></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Extra memory cost</h4></td>
+                        <td><h4>$<span id="ext-memory-cost">00</span> </h4></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Extra storage cost</h4></td>
+                        <td><h4>$<span id="ext-storage-cost">00</span> </h4></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Delivery cost</h4></td>
+                        <td><h4>$<span id="ext-delivery-cost">00</span> </h4></td>
+                    </tr>
+                 <tfoot>
+                        <tr>
+                           <td> <h4>Total </h4></td>
+                            <td> <h4>$ <span id="ext-total">1299</span> </h4></td>
+                        </tr>
+                    </tfoot>
+                  </table>
+            </div>
+
+
+
+           <!----------
+            extra part / bonus part
+            -------- -->
+           <div class="mt-5">
+               <h4>
+                   Promo Code
+               </h4>
+               <input id="promo-apply-input"class="w-25 h-100 py-1"type="text" name="" id="">
+               <button id="promo-id" class="btn btn-danger rounded">Apply</button>
+           </div>
+        </div>
+        </section>
+
+        
+        <!-- Total cost bonus part -->
+        <hr>
+      <h1 class="text-center">Total Cost: $<span id="after-promo-code-total">1299</span> </h1>
+    </main>
+    <footer>
+
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
+    
+
+
+
+  
